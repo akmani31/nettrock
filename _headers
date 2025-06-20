@@ -1,36 +1,29 @@
-# JavaScript files
-/**/*.js
+/*.js
   Cache-Control: public, max-age=31536000, immutable
 
-# CSS files
-/**/*.css
+/*.css
   Cache-Control: public, max-age=31536000, immutable
 
-# Fonts
-/**/*.woff2
-  Cache-Control: public, max-age=31536000, immutable
-/**/*.woff
+/*.png
   Cache-Control: public, max-age=31536000, immutable
 
-# Images
-/**/*.png
+/*.jpg
   Cache-Control: public, max-age=31536000, immutable
 
-/**/*.jpg
+/*.jpeg
   Cache-Control: public, max-age=31536000, immutable
 
-/**/*.jpeg
+/*.webp
   Cache-Control: public, max-age=31536000, immutable
 
-/**/*.webp
+/*.svg
   Cache-Control: public, max-age=31536000, immutable
 
-/**/*.svg
+/*.ico
   Cache-Control: public, max-age=31536000, immutable
 
-/**/*.ico
+/assets/img/*
   Cache-Control: public, max-age=31536000, immutable
 
-# JSON (cache less aggressively)
-/**/*.json
-  Cache-Control: public, max-age=3600
+/assets/img/clients/*
+  Cache-Control: public, max-age=31536000, immutable
